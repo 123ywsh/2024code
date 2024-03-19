@@ -1,0 +1,3 @@
+﻿  test.c
+D:\2023_code\test_3_8\test_3_8\test.c(49,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
+  test_3_8.vcxproj -> D:\2023_code\test_3_8\Debug\test_3_8.exe
