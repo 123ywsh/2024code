@@ -144,12 +144,12 @@ void ModifyContact(struct Contact* ps)
 	}
 }
 
-//int compare_char(const void* p1, const void* p2)
-//{
-//	return *(char*)p1 - *(char*)p2;
-//}
-//
-//void SortContact(struct Contact* ps)
-//{
-//	qsort(ps->data,MAX,sizeof(ps->data[0]),compare_char);
-//}
+int compare_char(const void* p1, const void* p2)
+{
+	return strcmp(((struct PeoInfo*)p1)->name,((struct PeoInfo*)p2)->name);
+}
+
+void SortContact(struct Contact* ps)
+{
+	qsort(ps->data,ps->size,sizeof(ps->data[0]),compare_char);
+}

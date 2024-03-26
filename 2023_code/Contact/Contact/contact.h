@@ -56,4 +56,4 @@ void SearchContact(const struct Contact* ps);
 void ModifyContact(struct Contact* ps);
 
 //ÅÅĞòÍ¨Ñ¶Â¼ÄÚÈİ
-//void SortContact(struct Contact* ps);
+void SortContact(struct Contact* ps);

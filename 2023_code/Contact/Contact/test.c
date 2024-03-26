@@ -43,7 +43,7 @@ int main()
 			break;
 		case SORT:
 			//自己实现
-			/*SortContact(&con);*/
+			SortContact(&con);
 			break;
 		case EXIT:
 			break;
