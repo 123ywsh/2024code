@@ -1,0 +1,10 @@
+file:D:\2024code\2023_code\test_3_38\test_3_38\test.c line:104 data:Mar 28 2024 time:23:13:20 i=0
+file:D:\2024code\2023_code\test_3_38\test_3_38\test.c line:104 data:Mar 28 2024 time:23:13:20 i=1
+file:D:\2024code\2023_code\test_3_38\test_3_38\test.c line:104 data:Mar 28 2024 time:23:13:20 i=2
+file:D:\2024code\2023_code\test_3_38\test_3_38\test.c line:104 data:Mar 28 2024 time:23:13:20 i=3
+file:D:\2024code\2023_code\test_3_38\test_3_38\test.c line:104 data:Mar 28 2024 time:23:13:20 i=4
+file:D:\2024code\2023_code\test_3_38\test_3_38\test.c line:104 data:Mar 28 2024 time:23:13:20 i=5
+file:D:\2024code\2023_code\test_3_38\test_3_38\test.c line:104 data:Mar 28 2024 time:23:13:20 i=6
+file:D:\2024code\2023_code\test_3_38\test_3_38\test.c line:104 data:Mar 28 2024 time:23:13:20 i=7
+file:D:\2024code\2023_code\test_3_38\test_3_38\test.c line:104 data:Mar 28 2024 time:23:13:20 i=8
+file:D:\2024code\2023_code\test_3_38\test_3_38\test.c line:104 data:Mar 28 2024 time:23:13:20 i=9

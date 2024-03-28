@@ -59,29 +59,56 @@
 //
 //}
 
+//int main()
+//{
+//	FILE* pf = fopen("test.txt", "r");
+//	if (pf == NULL)
+//	{
+//		perror("open file test.txt");
+//		return 0;
+//	}
+//	//读文件
+//	int ch = 0;
+//	while ((ch = fgetc(pf)) != EOF)
+//	{
+//		putchar(ch);
+//	}
+//	if (ferror(pf))
+//	{
+//		printf("error\n");
+//	}
+//	else if (feof(pf))
+//	{
+//		printf("end of file\n");
+//	}
+//	fclose(pf);
+//	pf = NULL;
+//
+//}
+
 int main()
 {
-	FILE* pf = fopen("test.txt", "r");
-	if (pf == NULL)
+	//printf("%s\n", __FILE__);
+	//printf("%d\n", __LINE__);
+	//printf("%s\n", __DATE__);
+	//printf("%s\n", __TIME__);
+
+	//写日志文件
+	int i = 0;
+	int arr[10] = { 0 };
+	FILE* pf = fopen("long.txt", "w");
+	for (i = 0; i < 10; i++)
 	{
-		perror("open file test.txt");
-		return 0;
-	}
-	//读文件
-	int ch = 0;
-	while ((ch = fgetc(pf)) != EOF)
-	{
-		putchar(ch);
-	}
-	if (ferror(pf))
-	{
-		printf("error\n");
-	}
-	else if (feof(pf))
-	{
-		printf("end of file\n");
+		arr[i] = i;
+		fprintf(pf, "file:%s line:%d data:%s time:%s i=%d\n",
+			__FILE__, __LINE__, __DATE__, __TIME__, i);
+		printf("%s\n", __FUNCTION__);
 	}
 	fclose(pf);
 	pf = NULL;
-
+	for (i = 0; i < 10; i++)
+	{
+		printf("%d ", arr[i]);
+	}
+	return 0;
 }
