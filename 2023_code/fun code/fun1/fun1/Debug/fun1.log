@@ -1,0 +1,3 @@
+﻿  test.c
+D:\2023_code\fun1\fun1\test.c(4,9): warning C4068: 未知的杂注“GCC”
+  fun1.vcxproj -> D:\2023_code\fun1\Debug\fun1.exe
