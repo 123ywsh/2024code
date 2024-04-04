@@ -1,0 +1,5 @@
+﻿  main.c
+D:\2023_code\fun code\game_4_4h\game_4_4h\main.c(100,11): warning C4013: “kbhit”未定义；假设外部返回 int
+D:\2023_code\fun code\game_4_4h\game_4_4h\main.c(102,13): warning C4013: “getch”未定义；假设外部返回 int
+D:\2023_code\fun code\game_4_4h\game_4_4h\main.c(138,9): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  game_4_4h.vcxproj -> D:\2023_code\fun code\game_4_4h\Debug\game_4_4h.exe
